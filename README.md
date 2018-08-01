@@ -10,7 +10,7 @@ The purpose of this project is to create a component which receives a json forma
 To run the project clone it and run this command in terminal "npm start". This will start the dev server on localhost:3000.
 
 A sample output would be like :
-![Sample Output](sample.png)
+![Sample Output](sample.PNG)
 
 
 

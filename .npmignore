@@ -22,4 +22,7 @@ scripts
 config
 .travis.yml
 CHANGELOG.md
-README.md
+readme.md
+sample.png
+*.map
+_config.yml

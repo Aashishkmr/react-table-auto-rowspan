@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import Row from './row';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './../index.css';
 
 class TableRowspan extends Component {
   constructor(props, context) {
@@ -45,10 +45,10 @@ getDataModelled(){
 }
   render() {
     return (
-      <table className='table table-bordered'>
-          <thead>
-          <tr>{this.props.tColumns.map(tColumn=>
-          <th>{tColumn.header}</th>
+      <table className='ar-table'>
+          <thead className='ar-table-thead'>
+          <tr className='ar-table-thead-row'>{this.props.tColumns.map(tColumn=>
+          <th className='ar-table-thead-header'>{tColumn.header}</th>
           )}
           </tr>
           </thead>

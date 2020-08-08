@@ -4,7 +4,7 @@ import TableColumn from './col';
 
     const Row=({rData})=>{
     return(
-      <tr>
+      <tr className='ar-table-row'>
       {rData.map(colData=>
         <TableColumn colData={colData}/>
       )}
